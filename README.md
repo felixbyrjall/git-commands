@@ -49,3 +49,15 @@ To upload the local repository to a remote repository, use
 git push
 ```
 however this command will not stage new files.
+
+
+
+git commands to look into
+git pull --rebase
+
+
+git checkout -b feature
+
+
+git merge master
+
