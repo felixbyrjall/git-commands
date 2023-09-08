@@ -1,6 +1,3 @@
-# git-commands
-this repository goes into how and when to use different git commands
-
 
 ### Initialize/create a new repository
 
@@ -52,7 +49,6 @@ however this command will not stage new files.
 
 
 
-git commands to look into
 git pull --rebase
 
 
@@ -60,4 +56,41 @@ git checkout -b feature
 
 
 git merge master
+
+
+
+
+git clone vs git fork
+
+
+```
+git fork
+```
+direct copy, no connection to the github repo
+
+
+```
+git clone
+```
+already connected to the github repo you cloned it from
+
+
+```
+nvm clean install
+```
+
+
+```
+git stash
+```
+
+```
+git stash pop
+```
+take the changes off of the stash, and remove them from the stack
+
+```
+git stash apply
+```
+take the changes off of the stash, but keep them in the stack
 
