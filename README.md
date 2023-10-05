@@ -94,3 +94,26 @@ git stash apply
 ```
 take the changes off of the stash, but keep them in the stack
 
+
+resets the local repo to wherever the master branch is at
+```
+git reset --hard HEAD
+```
+
+
+```
+git log
+```
+
+to add a new push url and delete the old one
+```
+git remote set-url --add --push >URL<
+```
+```
+git remote set-url --delete >URL<
+```
+
+to set a new fetch url
+```
+git remote set-url >URL<
+```
